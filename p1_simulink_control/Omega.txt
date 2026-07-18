@@ -1,0 +1,13 @@
+function Omega = fcn(T, tau_phi, tau_theta, tau_psi, b, l, d)
+
+U1 = T/b;
+U2 = tau_phi/(l*b);
+U3 = tau_theta/(l*b);
+U4 = tau_psi/d;
+
+omega_3 = sqrt(max(0, (U1 + U4 + 2*U2)/4));
+omega_1 = sqrt(max(0, (U1 + U4 - 2*U2)/4));
+omega_4 = sqrt(max(0, (U1 - U4 + 2*U3)/4));
+omega_2 = sqrt(max(0, (U1 - U4 - 2*U3)/4));
+
+Omega = omega_1 - omega_2 + omega_3 - omega_4;

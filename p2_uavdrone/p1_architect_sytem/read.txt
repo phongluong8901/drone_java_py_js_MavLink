@@ -1,0 +1,42 @@
+--- Intro
+
+--- Uav configuration + intertial vs body frame
+
+=== inputs and putputs of a 6 degree of fredom uav drone
+
+--- properller rotation irection 1
+
+--- proper rotation diretion 2 - helicopter example
+
+--- 1st control action - thrust
+
+--- 2nd control action - Roll
+
+--- 3rd control action - Pitch
+
+--- 4th control action - yaw
+
+--- Rotation vector direction
+
+--- Mesurering with respect to body or inertial frames
+
+--- Global view of dreon control architectire
+
+--- follow up
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

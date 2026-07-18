@@ -1,0 +1,13 @@
+Khóa 1 (Matlab/Simulink) ➔ Khóa 2 (Applied Control 3D) ➔ Khóa 3 (Drone Programming) ➔ Khóa 4 (Startup 4G/Video)
+
+Bước 1: Khóa 1 (Aymene Bacha) – Giúp bạn hiểu drone hoạt động về mặt vật lý như thế nào (lực nâng, mô-men xoắn, PID cân bằng cơ bản). Nhẹ nhàng hơn khóa của Mark Misin.
+https://www.udemy.com/course/drone-modeling-simulation-control-using-matlabsimulink/learn/lecture/52143555?start=0#overview
+
+Bước 2: Khóa 2 (Mark Misin) – Nâng cấp tư duy toán học và điều khiển lên không gian 3D phức tạp.
+https://www.udemy.com/course/applied-control-systems-for-engineers-2-uav-drone-control/learn/lecture/21514814?start=0#overview
+
+Bước 3: Khóa 3 (Mustafa Gökçe) – Chuyển từ lý thuyết toán sang viết code Python/C++ thực tế để điều khiển mạch Pixhawk hoặc mô phỏng Gazebo.
+https://www.udemy.com/course/software-development-for-ardupilot-powered-unmanned-systems/learn/lecture/38333224?start=0#overview
+
+Bước 4: Khóa 4 (Petar Petkanov) – Tận dụng kỹ năng IoT và Python của bạn để làm hệ thống điều khiển qua mạng internet toàn cầu.
+https://www.udemy.com/course/lets-build-startup-for-remote-4g-drone-operations/learn/lecture/25603640?start=0 

@@ -1,0 +1,11 @@
+function [phid, thetad] = fcn(Tx, Ty, T, psid)
+
+
+phid = (Tx*sin(psid) - Ty*cos(psid))/T;
+thetad = ((Tx*cos(psid) + Ty*sin(psid))/cos(phid))/T;
+
+phid = max(phid, -pi/6);
+phid = min(phid, pi/6);
+
+thetad = max(thetad, -pi/6);
+thetad = min(thetad, pi/6);

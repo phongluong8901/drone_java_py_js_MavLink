@@ -1,0 +1,34 @@
+download and install latesst VM Ware Workstation Player 17
+https://customerconnect.vmware.com/en/downloads/details?downloadGroup=WKST-PLAYER-1701&productId=1377&rPId=100675
+
+download latest ubuntu 22
+
+install ubuntu on vmware workstation player 17 and run it
+
+open terminal with ctrl+alt+t
+
+then run these
+
+  sudo apt update && sudo apt upgrade
+
+  sudo apt-get install git
+
+  git clone --recursive https://github.com/ArduPilot/ardupilot.git
+
+  cd ardupilot
+
+  Tools/environment_install/install-prereqs-ubuntu.sh -y
+
+  . ~/.profile
+
+
+
+  ./waf configure --board fmuv3
+
+  ./waf copter
+
+
+
+  cd ArduCopter
+
+  sim_vehicle.py --console --map --out 192.168.0.101:14553

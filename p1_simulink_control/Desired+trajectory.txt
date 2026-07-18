@@ -1,0 +1,6 @@
+function [xd, yd, zd, psid] = fcn(t)
+
+xd = cos(0.2*t);
+yd = sin(0.2*t);
+zd = 10*t;
+psid = sin(t);

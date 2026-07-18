@@ -1,0 +1,30 @@
+Create droneapp.service file with this content:
+
+
+[Unit]
+Description=DroneApp Service
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/python3 /home/pi/{app directory name}/app.py --d /home/pi/{app directory name}/
+
+[Install]
+WantedBy=multi-user.target
+
+
+{app directory name} should be replaced with the name of the folder that contains app.py main application file
+
+
+Then nn RaspPi move droneapp.service to /lib/systemd/system/ 
+
+Then Run
+
+sudo systemctl daemon-reload
+
+sudo systemctl enable droneapp.service 
+
+
+If you want to stop it from autoloading on Raspi startup, Run:
+
+sudo systemctl disable droneapp.service 

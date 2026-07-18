@@ -1,0 +1,5 @@
+--- kinematics and dynamic
+
+--- mesuarering  uav's position - exercise
+
+--- mesuarering  uav's position - solution
